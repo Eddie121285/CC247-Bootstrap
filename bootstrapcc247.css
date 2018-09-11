@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Header Section*/
+.panel{
+	margin: 0px;
+    border: none;
+    box-shadow: none;
+	padding:0px;
+}
+.panel a{
+	text-decoration: none;
+    color:#5b34a1;
+}
+
+/*Logo column in header*/
+.col-sm-4{
+	padding-left:10px;
+	margin:0px;
+}
+.col-sm-8 {
+	padding-left:200px;
+	display: inline-block;
+	padding-top:0px;
+	align-content: center;
+		
+}
+
+
+.fa-comment{
+	padding-left:110px;
+	padding-right: 15px;
+	font-size: 36px;
+	color: #00BBA3;
+}
+
+
+h1{
+	align-content: center;
+}
+
+.navbar-default {
+	min-height: 0px;
+	padding-left:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+    border-bottom:10px solid #00BBA3;
+	border-top:none;
+	background: white;
+	padding:0px;
+}
+	
+	
+
+	
+.navbar-nav{
+	
+	margin-left:0px;
+	padding-top:0px;
+	padding-left:0px;
+}
+
+
+
+.dropdown-menu.columns-3 {
+	min-width: 800px;
+}
+.dropdown-menu li a {
+    color:black;
+	margin-top:0px;
+	padding: 0px;
+	font-weight: 370;
+	padding-top: 15px;
+}
+.multi-column-dropdown {
+  list-style:inside square;	
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	text-decoration:none;
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	text-decoration-color: black;
+	white-space: normal;
+	
+	 
+}
+.multi-column-dropdown ul{
+	font-size:20px;
+}
+
+.multi-column-dropdown h5 {
+	color:#5631A5;
+	text-align: left;
+	padding-left: 12px;
+	padding-top: 15px;
+}
+ 
+
+
+.container-fluid{
+	
+	padding-left:0px;
+	padding-right:0px;
+	margin:0px;
+	min-width:100%;
+}
+
+.main {
+	margin:0px;
+	padding:0px;
+}
+#color{
+	height:450px;
+	background-color: #5b34a1;
+    padding-left:20px;	
+	margin:0px;
+}
+
+#image{
+	height:450px;
+	background-image: url("car-macro-mini-cooper redone.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: cover;
+}
+#showcase{
+	
+	min-height:100px;
+	background-color:#00BBA3;
+}
+
+
+ h2 {
+ 
+ color:White;
+ padding-left:25px;
+ margin:0px;
+}
+
+#main li {
+ font-size:16px;
+ line-height: 2.0;
+ color:White;
+ margin-left:0px;
+ list-style: none;
+ padding-left: 0px;
+}
+#main ul{
+	padding-left:0px;
+}
+#main p {
+ font-size:18px;
+ color:White;
+ padding-left:20px;
+ padding-bottom:10px;
+}
+
+strong{
+	color:#00BBA3;
+}
+#main h1{
+	padding-top:0px;
+	color:white;
+	padding-left:20px;
+	letter-spacing:1.5px;
+}
+#main .far{
+	padding-left:20px;
+	padding-right: 10px;
+	font-size: 25px;
+	color:#00BBA3;
+}
+
+#content {
+	
+    text-align: left;
+	padding-left: 20px;
+	margin-left:60px;
+	
+} 
+
+#content p {
+	padding:5px;
+}
+
+#content, a {
+	text-decoration: none;
+}
+
+#content h3{
+	color:#00BBA3;
+}
+
+#icons{
+	min-height:200px;
+	
+}
+
+#icons i{
+	color: red;
+	font-size:80px;
+	padding-top:50px;
+}
+
+#icons h4{
+	color:#5b34a1;
+	
+}
+
+footer{
+	padding-top:70px;
+	height:150px;
+	background-color:#00BBA3;
+	text-align: center;
+	
+}
+
+footer p{
+	text-decoration: underline;
+	text-decoration-style: solid;
+	font-size:20px;
+}
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	
+	}
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+	
+}
+@media (min-width: 992px){
+        .navbar li {
+        margin-left : 3em;
+        margin-right : 1em;
+    }
+}
